@@ -1,0 +1,66 @@
+/* CUSTOM-PROPS */
+
+:root{
+  --Midnight-Green:  #014E56;
+  --Light-Coral: #F67E7E;
+  --White: #fff;
+  --Rapture-Blue: #79C8C7;
+  --Police-Blue: #2C6269;
+  --Deep-Jungle-Green: #004047;
+  --Sacramento-State-Green: #012F34;
+  --Dark-Green: #002529;
+}
+
+
+/* GLOBAL */
+
+html{
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family:  "Livvic", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  background-color: var(--Midnight-Green);
+  color: var(--White);
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* CONTAINER */
+
+.container{
+  width: 100%;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* MAIN-CONTENT */
+
+.main-content{
+  flex-grow: 1;
+}
